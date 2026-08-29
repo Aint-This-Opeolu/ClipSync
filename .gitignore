@@ -1,0 +1,10 @@
+﻿# Rust
+clipsync-desktop/target/
+
+# Android
+clipsync-android/.gradle/
+clipsync-android/.idea/
+clipsync-android/local.properties
+clipsync-android/**/build/
+clipsync-android/*.iml
+clipsync-android/**/*.iml

@@ -1,0 +1,14 @@
+[package]
+name = "clipsync-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "net", "time", "macros", "io-util", "sync"] }
+mdns-sd = "0.11"
+arboard = { version = "3", default-features = false }
+aes-gcm = "0.10"
+sha2 = "0.10"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
